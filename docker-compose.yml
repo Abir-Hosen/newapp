@@ -1,11 +1,11 @@
 version: "3.5"
 services:
   app:
-    container_name: app
+    container_name: test_app
     build:
       context: .
       dockerfile: Dockerfile
-    image: app_image
+    image: test_app_image
     ports:
       - "3000:3000"
     stdin_open: true
